@@ -99,6 +99,7 @@ h2{font-family:var(--serif); font-weight:600; font-size:clamp(28px,3.6vw,42px); 
 .statusCard{border:1px solid var(--iceline); border-radius:14px; padding:26px 30px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px; background:var(--bg2)}
 .statusLeft{display:flex; align-items:center; gap:12px; font-family:var(--serif); font-weight:600; font-size:15px}
 .dot{width:8px; height:8px; border-radius:50%; background:#5fbf7f; box-shadow:0 0 10px #5fbf7f}
+.dot.offline{background:#c25656; box-shadow:0 0 10px #c25656}
 .statusRight{display:flex; gap:34px}
 .statusRight div{text-align:right}
 .statusRight b{display:block; font-family:var(--serif); font-size:22px; font-weight:600}
